@@ -51,7 +51,7 @@ class RoundRobinScheduler {
 
         System.out.println("Process " + processID + " not found.");
     }
-    
+
     public void simulateScheduling(int timeQuantum) {
         if (head == null) {
             System.out.println("No processes to schedule.");
