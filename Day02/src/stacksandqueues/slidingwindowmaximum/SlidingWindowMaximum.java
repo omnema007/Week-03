@@ -12,11 +12,11 @@ public class SlidingWindowMaximum {
 
         for (int i = 0; i < length; i++) {
 
-            while (deque.size() > 0 && deque.peekFirst() <= i-k) {
+            while (deque.size() > 0 && deque.peekFirst() <= i - k) {
                 deque.pollFirst();
             }
 
-            while(deque.size() > 0 && arr[deque.peekLast()] < arr[i]) {
+            while (deque.size() > 0 && arr[deque.peekLast()] < arr[i]) {
                 deque.pollLast();
             }
 
