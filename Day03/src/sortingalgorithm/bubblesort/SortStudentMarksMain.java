@@ -20,7 +20,7 @@ public class SortStudentMarksMain {
 
         // Sorting the marks
         SortStudentMarks.bubbleSort(marks);
-        
+
         System.out.println("Sorted Marks: " + Arrays.toString(marks));
 
     }
