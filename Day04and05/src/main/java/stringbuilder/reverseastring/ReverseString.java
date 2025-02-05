@@ -1,0 +1,9 @@
+package stringbuilder.reverseastring;
+
+public class ReverseString {
+        public static String reverseString(String str) {
+            StringBuilder sb = new StringBuilder(str);
+
+            return sb.reverse().toString();
+        }
+}
