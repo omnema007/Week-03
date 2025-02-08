@@ -1,4 +1,4 @@
-package searchtargetinlargedataset;
+package searchtargetinlargedatasettest;
 
 public class SearchComparisonMain {
     public static void main(String[] args) {

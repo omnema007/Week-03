@@ -1,4 +1,4 @@
-package searchtargetinlargedataset;
+package searchtargetinlargedatasettest;
 
 import java.util.Arrays;
 
